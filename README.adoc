@@ -1,0 +1,36 @@
+= hr4lua
+:toc: auto
+
+Prints horizontal rules.
+
+== Setup
+
+Install lua and luarocks:
+
+[source, shell]
+----
+brew install lua luarocks
+----
+
+Install hr4lua:
+
+[source, shell]
+----
+luarocks make
+----
+
+Make hr4lua available to your path, e.g.:
+
+[source, shell]
+----
+ln -s $(pwd)/src/hr4lua.lua ~/bin/hr4lua
+----
+
+== Usage
+
+Please refer to the script's usage by running:
+
+[source, shell]
+----
+hr4lua --help
+----
