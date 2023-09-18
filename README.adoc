@@ -1,7 +1,7 @@
 = hr4lua
 :toc: auto
 
-Prints horizontal rules.
+Prints horizontal rules. Lua port of https://github.com/shyguys/hr.
 
 == Setup
 
