@@ -1,7 +1,7 @@
 #!/usr/bin/env lua
 
 local argparse = require("argparse")
-local lib = require("lib")
+local lib = require("hr4lua.lib")
 
 local PROG = "hr4lua"
 
