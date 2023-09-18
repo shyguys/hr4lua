@@ -1,8 +1,8 @@
 package = "hr4lua"
-version = "1.1.2-1"
+version = "1.1.3-1"
 source = {
    url = "https://github.com/shyguys/hr4lua",
-   tag = "v1.1.2"
+   tag = "v1.1.3"
 }
 description = {
    summary = "Prints horizontal rules.",

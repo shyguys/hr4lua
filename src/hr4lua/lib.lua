@@ -18,13 +18,14 @@ function lib.print_titled(length, outer, inner, title)
    end
    local right_spare_length = spare_length // 2
    local left_spare_length = spare_length - right_spare_length
-   io.write(
-      outer ..
-      string.rep(inner, left_spare_length) ..
-      title ..
-      string.rep(inner, right_spare_length) ..
-      outer .. "\n"
-   )
+   io.write(string.format(
+      "%s %s %s %s %s\n",
+      outer,
+      string.rep(inner, left_spare_length),
+      title,
+      string.rep(inner, right_spare_length),
+      outer
+   ))
 end
 
 function lib.print_untitled(length, outer, inner)
